@@ -1,0 +1,44 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v<VERSION> }
+
+\bibitem[Hurwitz et al. 2009]{Hurwitz2009}
+\abntrefinfo{Hurwitz et al.}{HURWITZ et al.}{2009}
+{HURWITZ, J. et al. \emph{Cloud Computing For Dummies}. [S.l.]: For Dummies,
+  2009.
+ISBN 0470484705, 9780470484708.}
+
+\bibitem[Mell e Grance 2009]{Mell2009}
+\abntrefinfo{Mell e Grance}{MELL; GRANCE}{2009}
+{MELL, P.; GRANCE, T. \emph{The NIST Definition of Cloud Computing}.
+26. ed. [S.l.], 2009. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.csrc\-.nist\-.gov\-/groups\-/SNS\-/cloud-computing\-/$>$}{http://www.csrc.nist.gov/groups/SNS/cloud-computing/}.}
+
+\bibitem[Schubert, Mendes e Westphall 2013]{Schubert2013}
+\abntrefinfo{Schubert, Mendes e Westphall}{SCHUBERT; MENDES; WESTPHALL}{2013}
+{SCHUBERT, F.; MENDES, R.; WESTPHALL, C.~B. Redes bayesianas para a detecção
+  de violação de sla em infraestrutura como serviço. In:  (SBC), S.~B. de C.
+  (Ed.). \emph{Anais 31º Simpósio Brasileiro de Redes de Computadores e
+  Sistemas Distribuídos}. Royal Tulip Brasília Alvorada, Brasília - DF:
+  Sociedade Brasileira de Computação (SBC), 2013. p. 53--63. Dispon{\'\i}vel
+  em:
+  \htmladdnormallink{$<$http:\-/\-/sbrc2013\-.unb\-.br\-/files\-/anais\-/wcga\-/artigos\-/artigo-5\-.pdf$>$}{http://sbrc2013.unb.br/files/anais/wcga/artigos/artigo-5.pdf}.}
+
+\bibitem[Velte, Velte e Elsenpeter 2009]{Velte2009}
+\abntrefinfo{Velte, Velte e Elsenpeter}{VELTE; VELTE; ELSENPETER}{2009}
+{VELTE, T.; VELTE, A.; ELSENPETER, R. \emph{Cloud Computing: A Practical
+  Approach}. McGraw-Hill Education, 2009.
+ISBN 9780071626958. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/books\-.google\-.com\-.br\-/books?id=mf0LMXve2gEC$>$}{http://books.google.com.br/books?id=mf0LMXve2gEC}.}
+
+\bibitem[Vouk 2008]{Vouk2008}
+\abntrefinfo{Vouk}{VOUK}{2008}
+{VOUK, M. Cloud computing -- issues, research and implementations. In:
+  \emph{Information Technology Interfaces, 2008. ITI 2008. 30th International
+  Conference on}. [S.l.: s.n.], 2008. p. 31--40.
+ISSN 1330-1012.}
+
+\end{thebibliography}

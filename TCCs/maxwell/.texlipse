@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Fri Aug 16 02:12:08 CEST 2013
+markTmpDer=true
+builderNum=2
+outputDir=saida
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=temporario
+mainTexFile=TCCMaxwell.tex
+outputFile=TCCMaxwell.pdf
+langSpell=br
+markDer=true
+srcDir=fontes
