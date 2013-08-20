@@ -8,12 +8,414 @@
 % Capitulo de revisão de literatura
 % ---
 
-\chapter{Lorem ipsum dolor sit amet}
+\chapter[Ontologias]{Ontologias}
+%\addcontentsline{toc}{chapter}{Ontologias}
 
 % ---
-\section{Aliquam vestibulum fringilla lorem}
+%\section{Ontologias}
 % ---
+
+Ontologia em ciência da computação tem especificação explícita para o domínio de
+aplicação [ou de interesse] e permite uma relação dos termos estruturados em um
+vocabulário, tido como base – conceito, propriedades, relações, funções e
+regras. As Ontologias têm encontrado inúmeras aplicações por meio da Web
+semântica, e correlaciona sistemas de base de dados em uma cloud que é uma
+plataforma orientada a serviços baseada em SOA (Service-Oriented Architecture).
+Os serviços que executam tais atividades são descritos como serviços Web
+semântico  na linguagem de ontologias OWL-S (Web Ontology Language for Web
+Services),\citeonline[p.~10]{Batista2012}. As pesquisas em ontologias têm se
+formalizado através de Lógicas de Descrição (DL), que são fragmentos
+(decidíveis) da lógica de primeira ordem. Uma ontologia em DL é dividida em duas
+componentes, a TBox, para expressar conceitos e suas inter-relações, e a ABox,
+que contém afirmações que sobre instâncias
+específicas,\citeonline[p.~3]{Wassermann2013}. A evolução de uma ontologia se dá
+tanto na sua informação de domínio que pode ser corrigida ou refinada, como em
+resposta a uma mudança no domínio subjacente posto que não é estática as
+informações, e portanto, são modificados e/ou aperfeiçoados.
+
+As ontologias empregadas pela Cloud são descritas em linguagem OWL (Web Ontology
+Language), que é a linguagem de marcação semântica proposta pelo W3C (World Wide
+Web Consortium) como padrão pela Web Semântica para descrever ontologias.
+Fundamentada em RDF (Resource Description Framework), OWL permite que usuários
+descrevam o vocabulário de um dado domínio em termos de classes, instâncias
+(indivíduos), propriedades e relacionamentos,\citeonline[p.~12]{Batista2012}.
+Entre as potenciais ferramentas que a priori parecem mais adequadas para a
+implementação de dinâmica de ontologias encontra-se o modelo de revisão de
+protótipos. Os itens e conceitos são baseados em uma representação protótipo da
+categoria. De acordo com a teoria do protótipo, certas características de uma
+categoria têm o mesmo estatuto e, assim, exemplos que apresentam todas ou a
+maioria dessas características se tornam o protótipo para essa categoria. Itens
+que não compartilham a maioria destas características podem ainda pertencer a
+essa categoria, mas não representam o protótipo. As relações nas ontologias
+podem ser pensadas como as características dos protótipos, e os elementos podem
+ou não pertecerem à classe dos protótipos, conforme as propriedades que possuam.
+Lembra-se no entanto, que características são mutáveis, o que faz com que as
+classificações não sejam fixas.
 
 \lipsum[1]
 
 \lipsum[2-3]
+
+\chapter[SNMP]{SNMP}
+%\addcontentsline{toc}{chapter}{SNMP}
+
+% ---
+%\section{SNMP}
+% ---
+
+As ferramentas de consulta de informação serão neste projeto, as SNMP,
+denominadas em sua extensão de Standard Network Management Framework. É muito
+utilizado em sistema de gerência, por ser menos complicado, e por isso
+difundiu-se muito rápido no meio tecnológico. O seu sistema permite inserir
+modificações e informações sem maiores impactos. Ou seja, a solução básica de
+gerência (instrumentação) e o protocolo SNMP são muito simples. A versao
+Framework é baseada em três documentos:
+
+a) \textsf{Structure of Management Information (SMI)}, com linguagem especifica
+para informação gerenciada; 
+b) \textsf{Management Informations Base (MIB)}, aqui representando ser a
+principal ferramenta de inserção de informações, posto que define as variáveis
+de gerência; 
+c) \textsf{Simple Network Management Protocol (SNMP)}: está é um protocolo usado
+entre gerente e agente para a gerência, em um fluxo de valores de variáveis.
+
+Então, a arquitetura para uma solução SNMP é tida como um modelo fetch-store de
+variáveis de gerência mantida por agentes de forma muito simples, mas com
+resultados poderosos por meio de ações especiais com efeitos colaterais de
+operações store (por exemplo: link up, lind down).
+
+Possui três versões SNMPv1; SNMPv2; SNMPv3. A primeira versão SNMPv1 é uma
+versão primitiva o GET obtém um valor de uma variável; já o GET –NEXT permite
+caminhar nas variáveis por tabelas de tamanho, mesmo quando não se sabe as quais
+são essas variáveis. Nela também se encontra o SET, ferramenta que permite
+alterar o valor de uma variável; e a TRAP, que informa os eventos
+extraordinários (de agente para gerente). Portanto, o modelo é básico
+(Trap-Directed Polling) onde o SNMP se insere na pilha TCP/IP.
+
+\lipsum[4]
+
+\lipsum[5-6]
+
+\chapter[Computação em Nuvem]{Computação em Nuvem}
+\label{computacaoemnuvem}
+
+O paradigma de computação em nuvem, por estar envolvido com diversas outras
+tecnologias computacionais, muitas vezes tem a sua definição incorporada pelas
+definições já consolidadas dessas tecnologias, como a computação em grade, a
+computação distribuída, a virtualização, entre outras. Assim, uma definição
+padrão aceita universalmente para a computação em nuvem se torna difícil. O
+\textsf{NIST}, do governo dos Estados Unidos define computação em nuvem como um
+modelo que possibilita acesso conveniente e sob demanda, através da rede, a um
+conjunto compartilhado de recursos computacionais configuráveis (rede,
+servidores, armazenamento, aplicações e serviços). Esses recursos podem ser
+providos rapidamente e liberados com um mínimo de esforço de gerenciamento ou
+interação com o provedor do serviço.
+
+Uma definição mais simples do termo seria o provimento de recursos
+computacionais para um cliente a partir de uma demanda. O fornecedor desses
+recursos abstrai as tecnologias envolvidas e a procedência do recurso para os
+usuários finais. Desse modo, um cliente, ao contratar um serviço, se atém apenas
+à utilização do recurso em si, abstraindo-se da tecnologia envolvida para o
+recebimento desses recursos e até mesmo a origem ou localização geográfica do
+recurso. Com isso, a obtenção de recursos, como servidores para armazenamento de
+arquivos, servidores web, etc., acaba tornando-se desnecessária, evitando na
+maioria das vezes, uma subutilização de recursos computacionais. Uma empresa, ao
+comprar a quantidade certa de recursos de TI sob demanda, pode evitar a compra
+de equipamentos desnecessários. Bancos de dados, redes, aplicativos, plataformas
+e até infraestruturas completas são alguns exemplos de recursos computacionais
+que podem ser fornecidos.
+
+\section{Classificações para Computação em Nuvem}
+\label{computacaoemnuvem:classificacoes}
+
+Os ambientes de computação em nuvem podem ser classificados seguindo mais de um
+critério. A seguir são listadas duas das possíveis classificações para esses
+ambientes em relação ao seu modelo de serviços e ao seu modelo de implantação.
+
+\subsection{Software como Serviço (SaaS)} 
+\label{computacaoemnuvem:classificacoes:servicos:SaaS}
+
+É um modelo de distribuição de \textit{software} em que os aplicativos são
+hospedados por um provedor ou um fornecedor de serviço e disponibilizados aos
+clientes, através de uma rede, geralmente a Internet.
+
+Algumas das vantagens da utilização do modelo SaaS são:
+
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item Facilidade de administração;
+\item Compatibilidade: todos os clientes utilizarão a mesma versão do
+aplicativo;
+\item Atualizações automáticas, sem necessidade de envolvimento do usuário;
+\item Facilidade para criação de ambientes colaborativos;
+\item Acessibilidade global.
+\end{itemize}
+     
+Pode-se citar como exemplos: o Google\footnote{http://www.google.com}, com a sua
+suíte de aplicativos Google Apps\footnote{http://www.google.com/apps}, incluindo
+o servidor de e-mails Gmail\footnote{http://mail.google.com}, e seu conjunto de
+aplicativos para escritório Google Docs\footnote{http://docs.google.com}, entre
+outros serviços.
+
+\subsection{Plataforma como Serviço (PaaS)} 
+\label{computacaoemnuvem:classificacoes:servicos:PaaS}
+
+Nesse modelo, um provedor oferece além de uma infraestrutura, um conjunto de
+soluções e ferramentas que um desenvolvedor necessita para criar uma aplicação.
+Esse modelo oferece a capacidade de gerenciamento de todas as fases do
+desenvolvimento de uma aplicação, desde a modelagem e o planejamento, até a
+construção, implantação para testes e manutenção. Esse modelo é uma consequência
+direta do modelo de Software como Serviço, descrito na seção
+\ref{computacaoemnuvem:classificacoes:servicos:SaaS}. Pode-se citar, como
+vantagens da utilização desse modelo:
+
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item Não há necessidade de comprar todo o sistema, aplicativos,
+plataformas, e ferramentas necessárias para construir, executar e implantar o
+aplicativo;
+\item Recursos do sistema operacional podem ser alterados e
+atualizados com frequência;
+\item Equipes de desenvolvimento, geograficamente distribuídas,
+podem trabalhar juntas em projetos de desenvolvimento;
+\item Despesas gerais minimizadas pela unificação dos esforços no
+desenvolvimento.
+\end{itemize}
+
+Uma das desvantagens de utilização desse modelo é a confiança na segurança dos
+dados que o desenvolvedor ou a empresa devem ter na provedora do serviço. A
+ideia de que dados pessoais ou corporativos privados, críticos ou não, não estão
+armazenados em domínios próprios pode não ser tolerado por algumas pessoas e
+organizações.
+
+Pode-se citar como exemplos de provedores de PaaS: o Google App
+Engine\footnote{http://appengine.google.com}, que permite o desenvolvimento de
+aplicações nas linguagens de programação Python e Java, o
+Heroku\footnote{http://www.heroku.com}, da empresa SalesForce.com que suporta
+múltiplas linguagens como Ruby, Node.js, Clojure, Java, Python e Scala e o Cloud
+Foundry\footnote{http://www.cloudfoundry.com}, ferramenta de código aberto da
+empresa VMWare que fornece uma plataforma para desenvolvimento utilizando
+diversas linguagens.
+
+\subsection{Infraestrutura como Serviço (IaaS)} 
+\label{computacaoemnuvem:classificacoes:servicos:IaaS}
+
+Nessa modalidade é oferecida ao cliente uma infraestrutura de hardware completa.
+Armazenamento, hardware (memória, processamento, etc.), servidores e componentes
+de rede são oferecidos aos usuários. O consumidor é capaz de implantar e
+executar aplicativos arbitrários, que podem incluir sistemas operacionais
+completos e tecnologias de virtualização para o gerenciamento dos recursos
+\textsf{NIST}. O cliente não administra ou controla a infraestrutura da
+nuvem, porém tem controle sobre o sistemas operacionais, armazenamento, uso de
+aplicativos e controle dos componentes de rede.
+
+Esse modelo, referido por alguns autores como \textit{Hardware as a Service
+(HaaS)} possui inúmeras vantagens, dentre elas:
+
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item Permite que uma empresa mantenha o foco nos produtos e
+serviços que oferece, delegando o gerenciamento de tecnologia da organização à
+provedora de infraestrutura;
+\item A infraestrutura pode ser rapidamente ampliada em caso de
+maior demanda e reduzida caso a demanda recue;
+\item Redução de custos com utilização ótima de recursos. Uso dos
+serviços com base na exigência e somente enquanto forem necessários;
+\item Flexibilidade. Permite o acesso a infraestrutura a partir de
+qualquer lugar, utilizando diversos dispositivos;
+\item Permite economia de energia, diminuindo o impacto ambiental,
+contribuindo para iniciativas da chamada TI Verde ou \textit{Green IT}.
+\end{itemize}
+
+O pioneiro e melhor exemplo de IaaS atualmente é o Amazon EC2\footnote{Elastic
+Compute Cloud}, oferecido pela empresa Amazon. São oferecidas ao cliente
+infraestruturas completas virtualizadas e todo o controle e gerenciamento pode
+ser feito remotamente, utilizando uma API de serviços web. Outros exemplos são:
+o SmartCloud\footnote{http://www.ibm.com/SmartCloud}, da empresa IBM, o
+RightScale\footnote{http://www.rightscale.com} e
+GoDaddy\footnote{http://www.godaddy.com/}.
+
+\subsection{Tudo como Serviço (AaaS)} 
+\label{computacaoemnuvem:classificacoes:servicos:XaaS}
+
+Conforme aumentam os serviços prestados por provedores utilizando o paradigma da
+computação em nuvem, diversos novos termos são criados. A sigla AaaS ou XaaS,
+refere-se à frase em inglês \textit{Anything as a Service}, ou Tudo como
+Serviço, onde a letra X pode ser substituída por diversas letras e assumir
+vários significados diferentes. Esses modelos, apesar de utilizarem outras
+nomenclaturas, acabam se derivando de modelos já consolidados e citados
+anteriormente. Alguns exemplos:
+
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item Banco de Dados como Serviço: capacidade de utilizar os serviços de um
+banco de dados hospedado remotamente;
+\item Segurança como Serviço: fornecimento de serviços de segurança essenciais
+remotamente via internet, como por exemplo, gerenciamento de identidades;
+\item Teste como serviço: provimento de serviços de teste hospedados remotamente
+para testar sistemas locais;
+\item Informação como Serviço: capacidade de utilizar de qualquer tipo de
+informação remota por meio de uma interface bem definida, como uma API;
+\item Processo como Serviço, Gestão como Serviço, etc.;
+\end{itemize}
+
+
+\section{Classificação quanto ao Modelo de Implantação}
+\label{computacaoemnuvem:classificacoes:implantacao}
+
+Ambientes de computação em nuvem, além da categorização por modelos de serviço,
+podem ser classificados em relação ao seu modelo de implantação, ou seja, sua
+abrangência de público. Abaixo são citados os quatro modelos mais citados na
+literatura.
+
+\subsection{Nuvem Pública} 
+\label{computacaoemnuvem:classificacoes:implantacao:publica}
+
+A nuvem pública, ou nuvem externa, como alguns autores citam, descreve o
+significado convencional da computação em nuvem, onde um prestador de serviços
+disponibiliza recursos computacionais, tais como aplicativos e armazenamento
+para o público em geral, através da Internet. Serviços de nuvem pública podem
+ser livres ou oferecidos utilizando um modelo de pagamento baseado no uso
+(\textit{pay-per-use}\footnote{Nesta modalidade o contratante solicita os
+serviços e recursos de acordo com sua necessidade e disponibilidade e paga
+apenas pelo que for utilizado.}), \citeonline{Smoot2011}. Empresa  como
+Salesforce.com, Amazon EC2 e Flexiscale oferem esse tipo de serviço.
+
+\subsection{Nuvem Privada} 
+\label{computacaoemnuvem:classificacoes:implantacao:privada}
+
+Em uma nuvem privada, uma infraestrutura é disponibilizada para uso exclusivo de
+uma única organização que compreende vários consumidores (por exemplo, unidades
+de negócios). Pode ser de propriedade, gerenciados e operados pela organização,
+um terceiro, ou uma combinação deles, e podem existir dentro ou fora das
+instalações da empresa\textsf{NIST}. Ferramentas como Eucalyptus e OpenNebula
+permitem a implantação desse tipo de modelo.
+
+\subsection{Nuvem Híbrida} 
+\label{computacaoemnuvem:classificacoes:implantacao:hibrida}
+
+Uma nuvem híbrida acontece quando recursos computacionais de nuvens públicas e
+de nuvens privadas são utilizados. Uma empresa pode optar por usar um serviço de
+nuvem pública para a utilização de recursos em geral, porém, pode armazenar suas
+informações críticas de negócios em uma nuvem privada, dentro do seu próprio
+domínio com a finalidade de aumentar a segurança dos dados. Em
+\citeonline{Sotomayor2009}, uma nuvem privada, no entanto, pode dar suporte à
+uma nuvem híbrida, através da complementação da capacidade da infraestrutura
+local com a capacidade computacional de uma nuvem pública.
+
+\subsection{Nuvem Comunitária} 
+\label{computacaoemnuvem:classificacoes:implantacao:comunitaria}
+
+Para o \textsf{NIST}, nesse modelo a infraestrutura da nuvem é compartilhada
+por diversas organizações, dando suporte a uma comunidade específica, com
+preocupações ou atividades em comum, podendo ser gerenciada pela própria
+organização ou por terceiros e se localizar dentro ou fora dos limites da
+organização.
+
+\section{Padronizações para Computação em Nuvem}
+\label{computacaoemnuvem:padronizacoes}
+
+A indústria da computação em nuvem está nos estágios iniciais de implantação de
+padrões, desde o armazenamento de rede à segurança. Hoje não há uma maneira
+padrão para as empresas formatarem seus dados para que possam ser facilmente
+movidos entre uma variedade de provedores de computação em nuvem. Se um cliente
+têm os seus dados em uma nuvem AWS S3, da Amazon, por exemplo, não pode
+necessariamente pegar esses dados e colocá-los em uma nuvem de outra provedora,
+como Rackspace, usando as mesmas chamadas da API. Existe uma falta de padrões na
+computação em nuvem. Sem padrões, a indústria acaba criando diversos sistemas
+proprietários fechados e assim uma interoperabilidade entre fornecedores de
+serviços se torna difícil. Como os clientes não querem ficar atrelados a um
+único sistema ou fornecedor existe uma forte pressão da indústria para a criação
+de padrões.
+
+Uma série de organizações e grupos informais abordam esse problema. O site Cloud
+Standards\footnote{http://www.cloud-standards.org} reúne através de projeto
+colaborativo iniciativas de diversas organizações para a padronização em
+computação em nuvem. Algumas dessas iniciativas são descritas na próxima seção.
+
+\subsection{\textit{Open Cloud Computing Interface} (OCCI)}
+\label{computacaoemnuvem:padronizacoes:occi}
+
+O \textit{Open Cloud Computing Interface}, ou em português, Interface para
+Computação em Nuvem Aberta é um conjunto de especificações de propósito geral,
+baseadas em computação em nuvem, para interações com recursos de uma forma que é
+explicitamente independente de fornecedor, e pode ser estendido para resolver uma ampla variedade de problemas em computação em nuvem.
+
+O conjunto de especificações OCCI é um produto do \textit{Open Grid Forum}
+(OGF), uma organização de desenvolvimento de padrões abertos na área de redes
+distribuídas, computação e armazenamento, com ênfase em tecnologias de grande
+escala em computação distribuída. O OGF desenvolve seus padrões através de um
+processo aberto que reúne entradas e contribuições da comunidade e realiza um
+refinamento através de revisões e comentários do público, a fim de produzir
+normas, orientações e informações de valor para a comunidade.
+
+O OCCI fornece um protocolo e uma API para todos os tipos de tarefas de
+gerenciamento de nuvem. O trabalho foi iniciado originalmente para criar uma API
+de gerenciamento remoto para serviços baseados em modelo IaaS, permitindo o
+desenvolvimento de ferramentas interoperáveis para tarefas comuns, incluindo
+dimensionamento, implantação e monitoramento. Desde então, evoluiu para uma API
+flexível, com foco na integração, portabilidade, interoperabilidade e inovação,
+oferecendo ainda um alto grau de extensibilidade. A versão atual da interface é
+adequada para servir muitos outros modelos, além de IaaS, incluindo, por
+exemplo, PaaS e SaaS.
+
+\subsection{\textit{Open Cloud Consortium} (OCC)}
+\label{computacaoemnuvem:padronizacoes:occ}
+
+O Open Cloud Consortium, de acordo com o seu site principal, foi formado em
+2008, e seus principais objetivos são:
+
+\begin{itemize}
+\item Suporte ao desenvolvimento de padrões para computação em nuvem e de
+\textit{arcabouços} para interoperabilidade entre nuvens;
+\item Desenvolvimento de \textit{benchmarks} para computação em nuvem;
+\item Suporte às implementações de referências para computação em nuvem, de
+preferência implementações de código aberto;
+\item Gerenciamento de infraestrutura para computação em nuvem para suporte a
+pesquisas científicas, como a \textit{Open Science Data Cloud}.
+\end{itemize}
+Essas tarefas estão divididas em grupos de trabalho que apoiam o interesse e as
+atividades dos membros da OCC. Os grupos de trabalho atuais incluem:
+
+\begin{description}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item[\textit{The Open Science Data Cloud (OSDC)} -] Grupo de trabalho que
+administra e opera uma nuvem com grande quantidade de informações para dados
+científicos. Entre os membros deste grupo de trabalho incluem o Yahoo, que
+contribuiu com equipamentos para a prova de conceito do OSDC e a Cisco, que
+fornece equipamento para conectar os vários centros OSDC distribuídos
+geograficamente.
+
+\item[\textit{Projeto Matsu} -] Este grupo de trabalho está desenvolvendo uma
+nuvem que pode ajudar em momentos de desastres naturais, proporcionando uma
+capacidade elástica para processar dados geoespaciais. Armazenamento baseado em
+nuvem e serviços de computação estão disponíveis para o projeto e podem ser
+usados, por exemplo, para auxiliar o processamento de imagens de modo que essas
+imagens possam ser disponibilizadas para aqueles que fornecem assistência a
+desastres.
+
+\item[\textit{OCC Virtual Network Testbed} -] É uma vasta área distribuída de
+testes para redes virtuais. O foco inicial é comparar e contrastar várias
+tecnologias para criação e gerenciamento de redes virtuais.
+
+\item[\textit{The Open Cloud Testbed} -] Este grupo utiliza equipamentos e
+várias redes internacionais de pesquisa nos EUA para testar as diferentes
+tecnologias para nuvens de amplo alcance. A participação nesse grupo de trabalho
+é limitado aos membros OCC que contribuem com recursos computacionais, como rede
+e poder de processamento.
+\end{description}
+
+\section{Infraestrutura para Computação em Nuvem}
+\label{computacaoemnuvem:infraestrutura}
+Atualmente, existem diversas soluções para implantação de um ambiente de
+computação em nuvem na modalidade IaaS.
