@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: TCCMaxwell.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: TCCMaxwell.aux
 A level-1 auxiliary file: secoes/Introducao.aux
 A level-1 auxiliary file: secoes/PreparacaoDaPesquisa.aux
 A level-1 auxiliary file: secoes/RevisaoDaLiteratura.aux
@@ -9,67 +7,12 @@ A level-1 auxiliary file: secoes/Conclusao.aux
 A level-1 auxiliary file: secoes/Apendices.aux
 A level-1 auxiliary file: secoes/Anexos.aux
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
-Warning--I didn't find a database entry for "modeloimplantacao"
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--campo note vazio em Wassermann2013
 +---------------------------------------------------------+
-| Estilo bibliográfico abnt-alf.bst versão v<VERSION>           |
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 10 entries,
-            6654 wiz_defined-function locations,
-            1270 strings with 12040 characters,
-and the built_in function-call counts, 26393 in all, are:
-= -- 3771
-> -- 341
-< -- 845
-+ -- 1016
-- -- 102
-* -- 1504
-:= -- 2955
-add.period$ -- 47
-call.type$ -- 10
-change.case$ -- 112
-chr.to.int$ -- 16
-cite$ -- 10
-duplicate$ -- 3244
-empty$ -- 597
-format.name$ -- 494
-if$ -- 5048
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 173
-newline$ -- 52
-num.names$ -- 46
-pop$ -- 289
-preamble$ -- 1
-purify$ -- 43
-quote$ -- 0
-skip$ -- 3309
-stack$ -- 1
-substring$ -- 1116
-swap$ -- 998
-text.length$ -- 17
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 2
-warning$ -- 1
-while$ -- 77
-width$ -- 0
-write$ -- 156
-(There were 2 warnings)
+(There was 1 warning)

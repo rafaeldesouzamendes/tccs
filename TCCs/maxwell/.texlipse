@@ -1,5 +1,5 @@
 #TeXlipse project settings
-#Fri Aug 16 02:12:08 CEST 2013
+#Fri Mar 28 00:36:40 BRT 2014
 markTmpDer=true
 builderNum=2
 outputDir=saida
@@ -9,6 +9,6 @@ outputFormat=pdf
 tempDir=temporario
 mainTexFile=TCCMaxwell.tex
 outputFile=TCCMaxwell.pdf
-langSpell=br
+langSpell=pt
 markDer=true
 srcDir=fontes
