@@ -1,0 +1,65 @@
+\documentclass{abntex2-ufsc}
+
+\usepackage{lipsum} % para geração de dummy text
+  
+\titulo{ARMAZENAMENTO BIG DATA NO MONITORAMENTO EM NUVEM}
+\autor{Maxwell Gonçalves de Almeida}
+\local{Florianópolis-SC}
+\data{2014/1}
+\orientador[Orientador:]{Prof. Dr. Carlos Becker Westphall}
+\coorientador[Coorientador:]{Prof. Ms. Rafael de Souza Mendes}
+
+\instituicao{Universidade Federal de Santa Catarina \par Departamento de
+Informática e Estatística \par Curso de Ciências da Computação}
+\tipotrabalho{Trabalho de Conclusão de Curso}
+
+\naturezatrabalho{Trabalho de conclusão de curso apresentado como parte dos requisitos para obtenção do grau de Bacharel em Ciências da Computação.}
+
+\preambulo{Trabalho de conclusão de curso apresentado como parte dos requisitos
+para obtenção do grau de Bacharel em Ciências da Computação.}
+
+\membrobancaA[Orientador]{\imprimirorientador}
+\membrobancaB[Coorientador]{\imprimircoorientador}
+\membrobancaC[Membro da Banca]{Prof.ª Dr.ª Carla Merkle Westphall}
+\membrobancaD[Membro da Banca]{Bel. Fernando Schubert}
+
+\begin{document}
+
+    % Elementos pré-textuais
+    \pretextual
+    \imprimircapa
+    \imprimirfolhaderosto{}
+    \imprimirfichacatalografica
+    \include{pre_textuais/errata} 
+    \imprimirfolhadeaprovacao
+    \include{pre_textuais/dedicatoria}
+    \include{pre_textuais/agradecimentos}
+    \include{pre_textuais/epigrafe}
+    \include{pre_textuais/resumo}
+    \include{pre_textuais/abstract}
+    \listoffigures*
+    \cleardoublepage
+    \listoftables*
+    \cleardoublepage 
+    \include{pre_textuais/abreviaturas}
+    \include{pre_textuais/siglas}
+    \include{pre_textuais/simbolos}
+    \tableofcontents*
+    \cleardoublepage
+
+    % Elementos textuais
+    \textual
+    \include{textuais/cap1}
+    \include{textuais/cap2}
+    \include{textuais/cap3}
+    \include{textuais/cap4}
+    \include{textuais/cap5}
+
+    % Elementos pós-textuais
+    \postextual
+    \include{pos_textuais/glossario}
+    \include{pos_textuais/apendices}
+    \include{pos_textuais/anexos}
+    \bibliography{tcc}
+
+\end{document}

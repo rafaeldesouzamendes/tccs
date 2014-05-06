@@ -1,0 +1,38 @@
+\begin{resumo}
+
+O cenário do monitoramento de redes está em constante mudança. Não faz muito
+tempo a evolução dos Grides para as Nuvens gerou uma necessidade de adaptação
+das já consagradas ferramentas de monitoramento. No intento de se alinhar com
+esta evolução o LRG implementou a sua própria nuvem privada e, recentemente,
+visa desenvolver uma arquitetura de monitoramento autonômica. Em trabalhos
+anteriores o PCMONS foi criado e implementado em conjunto a adaptações ao Nagios
+e OpenStack ou OpenNebula. Essa nova proposta é um completo redesenho da
+arquitetura e acréscimo de novos paradigmas. Para tal, é preciso repensar quais
+ferramentas de monitoramento utilizar, bem como, de que maneira as métricas de
+uma Nuvem serão armazenadas para sua análise, quer seja em tempo real ou quer
+seja em um espaço temporal mais alargado. Isto possibilita uma possível análise
+da frequência de eventos na nuvem e, eventual tomada de decisão relativa aos
+recursos disponibilizados na mesma. Tomar uma decisão na gestão de recursos
+através da análise estatística é o princípio que norteia a auto-gestão da Nuvem
+adaptando-se a mudanças imprevisíveis e escondendo a complexidade intrínseca dos
+operadores e usuários. Até alcançar tal nível de complexidade na implementação
+do projeto, é preciso particionar o problema e observar bem o cenário real das
+nuvens, onde uma imensa massa de dados monitorados é gerado devido a quantidade
+massiva de eventos em uma “cloud” de arquitetura complexa e com grande
+quantidade de máquinas físicas e virtuais. Portanto, não estamos mais falando na
+tecnologia tradicional de RDBMS, já que atualmente existem vários sistemas de
+banco de dados adaptados ao paradigma Big Data. O foco deste trabalho é
+exatamente fazer um estudo que vai direcionar ao melhor “schema” NoSQL do
+sistema HBase para armazenar as métricas da nuvem do LRG, neste percurso é
+analisado o porquê da escolha do HBase, qual as vantagens e desvantagens de um
+certo modelo de Banco de Dados adotado, bem como, uma comparação das vantagens e
+desvantagens do uso do NoSQL e não do tradicional SQL neste contexto.
+Posteriormente, consoante a evolução das pesquisas do LRG e eventual
+implementação de mais partes do problema, será possível consolidar o trabalho
+com a implementação final da nuvem autônoma proposta. 
+\\\\
+\noindent
+Palavras-chave: Computação Autonômica. Teoria da Decisão. Massa de Dados,
+Computação em Nuvem, NoSQL, Modelagem de dados HBase.
+
+\end{resumo}

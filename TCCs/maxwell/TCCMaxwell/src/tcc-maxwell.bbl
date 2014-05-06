@@ -1,0 +1,21 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[abnTeX2 2012]{abntex2cite-alf}
+\abntrefinfo{abnTeX2}{ABNTEX2}{2012a}
+{ABNTEX2, E. \textbf{Manual de uso do pacote abntex2cite: t{\'o}picos
+  espec{\'\i}ficos da ABNT NBR 10520:2002 e o estilo bibliogr{\'a}fico
+  alfab{\'e}tico (sistema autor-data}.
+[S.l.], 2012. Dispon{\'\i}vel em: \url{http://code.google.com/p/abntex2/}.}
+
+\bibitem[abnTeX2 2012]{abntex2cite}
+\abntrefinfo{abnTeX2}{ABNTEX2}{2012b}
+{ABNTEX2, E. \textbf{Manual de uso dos estilos bibliogr{\'a}ficos do pacote
+  abntex2: estilos bibtex compat{\'\i}veis com a ABNT NBR 6023:2000}.
+[S.l.], 2012. Dispon{\'\i}vel em: \url{http://code.google.com/p/abntex2/}.}
+
+\end{thebibliography}
